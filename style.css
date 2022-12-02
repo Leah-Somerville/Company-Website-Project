@@ -1,0 +1,28 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* ALL PAGES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    background-color: #faedec;
+}
+
+img{
+    width: 350px;
+}
+
+/* HOME PAGE */
+#navBar{
+    font-size: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    background-color: yellow;
+    margin: 12px;
+}
