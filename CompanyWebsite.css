@@ -1,0 +1,198 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* ALL PAGES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    background-color: #2B395A;
+    color: #BBBBD8;
+}
+
+img{
+    width: 350px;
+}
+
+/* HOME PAGE */
+nav{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    margin: 12px;
+    height: 50%;
+}
+
+a:hover{
+    background-color: #BBBBD8;
+    color: #404762;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/* PRICING.HTML */
+#contact{
+    text-align: center;
+    font-size: 20px;
+}
+
+form{
+    margin: auto;
+    text-align: left;
+    width: 25%;
+    border: 3px groove #4f4f4e;
+}
+
+input{
+    font-size: 20px;
+    margin: 5px;
+}
+
+#pricing{
+ 
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* INDEX.HTML */
+#glass{
+    width: 80vw;
+    border: 10px groove #4f4f4e;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#reviews{
+    width: 100vw;
+    text-align: center;
+    flex-shrink: 2;
+}
+
+#treeStump1 #treeStump2{
+    display: inline-block;
+}
+
+#reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+#adele{
+    grid-column-start: 1;
+    margin: auto;
+    border: 10px groove #4f4f4e;
+}
+
+#adeleInfo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+#joeKeery{
+    margin: auto;
+    border: 10px groove #4f4f4e;
+}
+
+#joeKeeryInfo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#sunset{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+    border: 10px groove #4f4f4e;
+}
+
+#fish{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+    border: 10px groove #4f4f4e;
+}
+
+#fishInfo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#bee{
+    margin: auto;
+    border: 10px groove #4f4f4e;
+}
+
+#beeInfo{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+h3{
+    font-size: 70px;
+    margin: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+/* ABOUT.HTML */
+#treeImages{
+    /* width: 100%; */
+    text-align: center;
+    margin: 15px;
+}
+
+#about{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
