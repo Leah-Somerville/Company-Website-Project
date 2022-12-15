@@ -20,6 +20,8 @@ nav{
     font-size: 40px;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    border-bottom: 5px solid #BBBBD8;
 }
 
 a{
@@ -37,6 +39,7 @@ h1{
 }
 
 h2{
+    margin: 10px;
     font-size: 50px;
     text-align: center;
 }
@@ -82,6 +85,7 @@ input{
 
 /* INDEX.HTML */
 #glass{
+    margin-top: 10px;
     width: 80vw;
     margin-left: 10%;
     margin-right: 10%;
@@ -193,7 +197,7 @@ h3{
 }
 
 #treeImages > img{
-    width: 300px;
+    width: 400px;
 }
 
 #about{
