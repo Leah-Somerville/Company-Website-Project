@@ -12,7 +12,8 @@
 }
 
 img{
-    width: 350px;
+    width: 60%;
+    border: 10px groove #4f4f4e
 }
 
 nav{
@@ -50,6 +51,9 @@ footer p{
     display: inline;
 }
 
+
+
+
 /* PRICING.HTML */
 #contact{
     text-align: center;
@@ -59,7 +63,7 @@ footer p{
 form{
     margin: auto;
     text-align: left;
-    width: 25%;
+    width: 300px;
     border: 3px groove #4f4f4e;
 }
 
@@ -79,7 +83,6 @@ input{
 /* INDEX.HTML */
 #glass{
     width: 80vw;
-    border: 10px groove #4f4f4e;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -101,7 +104,6 @@ input{
 #adele{
     grid-column-start: 1;
     margin: auto;
-    border: 10px groove #4f4f4e;
 }
 
 #adeleInfo{
@@ -114,7 +116,6 @@ input{
 
 #joeKeery{
     margin: auto;
-    border: 10px groove #4f4f4e;
 }
 
 #joeKeeryInfo{
@@ -130,7 +131,6 @@ input{
     grid-row-start: 1;
     grid-row-end: 2;
     margin: auto;
-    border: 10px groove #4f4f4e;
 }
 
 #fish{
@@ -139,7 +139,6 @@ input{
     grid-row-start: 3;
     grid-row-end: 4;
     margin: auto;
-    border: 10px groove #4f4f4e;
 }
 
 #fishInfo{
@@ -151,7 +150,6 @@ input{
 
 #bee{
     margin: auto;
-    border: 10px groove #4f4f4e;
 }
 
 #beeInfo{
@@ -189,9 +187,13 @@ h3{
 
 /* ABOUT.HTML */
 #treeImages{
-    /* width: 100%; */
     text-align: center;
+
     margin: 15px;
+}
+
+#treeImages > img{
+    width: 300px;
 }
 
 #about{
@@ -202,3 +204,117 @@ h3{
     font-size: 20px;
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 414px) {
+    #reviews{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    #adele{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #adeleInfo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #joeKeery{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #joeKeeryInfo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    #sunset{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    #sunsetInfo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    #fish{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    #fishInfo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+
+    #bee{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+
+    #beeInfo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 10;
+        grid-row-end: 11;
+    }
+
+    h3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 12;
+        grid-row-end: 13;
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 90%;
+    }
+
+    a{
+        font-size: 80%;
+    }
+}
