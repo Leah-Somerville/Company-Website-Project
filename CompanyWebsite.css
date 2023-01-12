@@ -7,13 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Pacifico', cursive;
-    background-color: #2B395A;
-    color: #BBBBD8;
+    background-color: #FAEDCD;
+    color: #504B3A;
 }
 
 img{
     width: 60%;
-    border: 10px groove #4f4f4e
+    border: 10px solid #646F58;
 }
 
 nav{
@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 5px solid #BBBBD8;
+    border-bottom: 5px solid #504B3A;
 }
 
 a{
@@ -30,8 +30,8 @@ a{
 }
 
 nav > a:hover{
-    background-color: #BBBBD8;
-    color: #404762;
+    background-color: #504B3A;
+    color: #FAEDCD;
 }
 
 h1{
